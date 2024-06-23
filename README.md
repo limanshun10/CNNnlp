@@ -49,7 +49,7 @@ The snapshot option means where your model load from. If you don't assign it, th
 * **Example1**
 
 	```
-	./main.py -predict="Hello my dear , I love you so much ." \
+	python main.py -predict="Hello my dear , I love you so much ." \
 	          -snapshot="./snapshot/2017-02-11_15-50-53/snapshot_steps1500.pt" 
 	```
 	You will get:
@@ -63,7 +63,7 @@ The snapshot option means where your model load from. If you don't assign it, th
 * **Example2**
 
 	```
-	./main.py -predict="You just make me so sad and I have to leave you ."\
+	python main.py -predict="You just make me so sad and I have to leave you ."\
 	          -snapshot="./snapshot/2017-02-11_15-50-53/snapshot_steps1500.pt" 
 	```
 	You will get:
