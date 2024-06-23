@@ -41,7 +41,7 @@ python main.py -model_type static -pretrained_embeddings_path ./GoogleNews-vecto
 If you has construct you test set, you make testing like:
 
 ```
-/main.py -test -snapshot="./snapshot/2017-02-11_15-50-53/snapshot_steps1500.pt
+python main.py -test -snapshot="./snapshot/2017-02-11_15-50-53/snapshot_steps1500.pt
 ```
 The snapshot option means where your model load from. If you don't assign it, the model will start from scratch.
 
